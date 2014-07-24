@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width,target-densitydpi=160dpi,initial-scale=1.0,maximum-scale=1.0,user-scale=no,minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/my2048.css">
+
+	<title>2048</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header game-head">
+			<ul class="nav nav-pills pull-right">
+				<li class="active">
+					<a><span class="badge pull-right">0</span>
+					Score
+					</a>
+				</li>
+				<li class="active">
+					<a><span class="badge pull-right">0</span>
+					Best
+					</a>
+				</li>
+			</ul>
+			<h1 class="text-muted">2048</h1>
+			<p class="lead game-intro">打到黄金圣斗士，拯救女神吧!
+			<button type="button" class="new-game btn btn-warning pull-right" name="new-game">New Game</button></p>
+		</div>
+        
+		<div class="game-container">
+			<div class="game-message">
+				<div>
+
+				</div>
+			</div>
+
+			<div class="game-grid">
+				<div class="game-row clearfix">
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+				</div>
+				<div class="game-row clearfix">
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+				</div>
+				<div class="game-row clearfix">
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+				</div>
+				<div class="game-row clearfix">
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+					<div class="game-cell"></div>
+				</div>
+			</div>
+			<div class="tile-container">
+
+			</div>
+
+		</div>
+
+			
+
+
+		<div class="footer">
+			<p class="lead"><strong>HOW TO PLAY:</strong> Use your arrow keys to move the tiles. When two tiles with the same number touch, they <strong>merge into one</strong>!</p>
+		</div>
+
+
+		
+
+	</div>
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/tile_s.js"></script>
+	<script src="js/grid_s.js"></script>
+	<script src="js/game_manager_s.js"></script>
+	<script src="js/application_s.js"></script>
+</body>
+
+</html>

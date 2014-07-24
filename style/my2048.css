@@ -1,0 +1,163 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.container {
+	width:600px;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+.game-head {
+}
+
+.game-intro {
+	margin-top:20px;
+}
+
+.game-container {
+	background:#bbada0;
+	width:500px;
+	padding:15px;
+	border-radius:6px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.game-gird {
+
+}
+
+.tile {
+	position:relative;
+	text-align:center;
+	font-size:55px;
+	font-weight:bold;
+	line-height:106.25px;
+	height:106.25px;
+	width:106.25px;
+	border-radius:3px;
+	background:#eee4da;
+}
+	.tile-2 {
+		background:#eee4da;
+		background-image:url(2.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-4 {
+		background:#ede0c8;
+		background-image:url(4.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-8 {
+		background:#f2b179;
+		color:#f9f6f2;
+		background-image:url(8.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-16 {
+		background:#f59563;
+		color:#f9f6f2;
+		background-image:url(16.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-32 {
+		background:#f67c5f;
+		color:#f9f6f2;
+		background-image:url(32.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-64 {
+		background:#f65e3b;
+		color:#f9f6f2;
+		background-image:url(64.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-128 {
+		background:#edcf72;
+		color:#f9f6f2;
+		font-size:45px;
+		background-image:url(128.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-256 {
+		background:#edcc61;
+		color:#f9f6f2;
+		font-size:45px;
+		background-image:url(256.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-512 {
+		background:#edc850;
+		color:#f9f6f2;
+		font-size:45px;
+		background-image:url(512.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-1024 {
+		background:#edc53f;
+		color:#f9f6f2;
+		font-size:35px;
+		background-image:url(1024.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-2048 {
+		background:#edc22e;
+		color:#f9f6f2;
+		font-size:35px;
+		background-image:url(2048.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	.tile-super {
+		background:#3c3a32;
+		color:#f9f6f2;
+		font-size:30px;
+		background-image:url(super.png);
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+
+span.show-num {
+	display:none;
+}
+
+.game-cell {
+	background:rgba(238,228,218,0.35);
+	height:106.25px;
+	width:106.25px;
+	float:left;
+	margin-right:15px;
+	border-radius:3px;
+}
+	.game-cell:last-child {
+		margin-right:0;
+	}
+
+.game-row {
+	height:106.25px;
+	margin-bottom:15px;
+}
+	.game-row:last-child {
+		margin-bottom:0;
+	}
+
+.footer {
+}
+
